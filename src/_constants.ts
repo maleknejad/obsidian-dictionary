@@ -20,6 +20,7 @@ export const LANGUAGES = {
     "ar": "اَلْعَرَبِيَّةُ‎ (Arabic)",
     "tr": "Türkçe (Turkish)",
     "cn": "中文 (Chinese)"
+    "fa": "فارسی (Persian)"
 }
 
 export const RFC = {
@@ -106,6 +107,10 @@ export const DEFAULT_SETTINGS: DictionarySettings = {
         },
         cn: {
             definitionApiName: 'Offline Dictionary',
+            synonymApiName: null,
+        },
+        fa: {
+            definitionApiName: 'Free Dictionary API',
             synonymApiName: null,
         },
     },
