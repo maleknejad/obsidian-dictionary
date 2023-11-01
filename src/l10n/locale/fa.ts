@@ -1,0 +1,3 @@
+// فارسی
+
+export default {};
